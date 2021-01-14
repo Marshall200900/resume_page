@@ -40,7 +40,7 @@
   },
   "crcf": [
     {
-      "output": "/components"
+      "output": "/src/components"
     }
   ]
 }

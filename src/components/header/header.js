@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import '/header.css';
+import './header.css';
 
 class Header extends Component {
   render() {
@@ -7,10 +7,11 @@ class Header extends Component {
     return( 
       <div className="header">
         <div className="content">
-          <div>Something</div>
-          <div>That</div>
-          <div>Needs</div>
-          <div>to be done</div>
+          <ul>
+            <li><a href="#description">Главная</a></li>
+            <li><a href="#skills_list">Услуги</a></li>
+            <li><a href="#footer">Контакты</a></li>
+          </ul>
         </div>
       </div>
     )

@@ -1,0 +1,49 @@
+.skills-list {
+    min-height: 400px;
+    background:rgb(233, 233, 233);
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.skills-text {
+
+}
+
+.skills-wrapper h1 {
+    text-align: center;
+    margin: 10px 0;
+
+}
+
+.skills-image {
+    display: block;
+    height: 150px;
+    width: 150px;
+    margin: 0px auto;
+}
+
+.skills-quality .skills-image {
+    position: relative;
+    left: 20px;
+    width: 200px;
+}
+.skills-stable .skills-image {
+    height: 100px;
+    width: 200px;
+}
+
+.skills-wrapper {
+    text-align: center;
+    
+}
+.skill   {
+    width: 250px;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    word-spacing: normal;
+    margin: 20px;
+}
+.content {
+}
