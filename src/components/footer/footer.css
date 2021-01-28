@@ -1,0 +1,15 @@
+.footer {
+    height: 200px;
+    background: rgb(40, 45, 75);
+    color: white;
+    font-family: Cormorant Garamond;
+}
+.footer .links img {
+    width: 30px;
+    height: auto;
+    padding: 3px;
+}
+.footer .footer-text {
+    padding-top: 50px;
+    text-align: center;
+}

@@ -1,14 +1,20 @@
+.description {
+    background-color: rgb(248, 250, 255);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
 .description img {
-    width: 570px;
-    height: 550px;
+    width: 550px;
+    max-width: 100%;
+    height: auto;
     margin-left: 10px;
     margin-right: 70px;
-
+    margin-bottom: 50px;
+    
 }
 .description h1 {
     display: block;
-    height: 50px;
-    margin: 10px auto 60px auto;
+    margin: 0 auto 60px auto;
     text-align: center;
     font-family: Playfair Display SC;
     font-size: 4rem;
@@ -24,13 +30,13 @@
     margin-right: 10px;
     margin-bottom: 100px;
     display: block;
-    font-size: 2rem;
-    font-family: Playfair Display;
-    font-weight: 600;
+    font-size: 1.8rem;
+    font-family: Cormorant Garamond;
 }
 .description .column-text-link {
     align-self: center;
-
+    display: flex;
+    flex-direction: column;
 }
 .description .column-text-link a {
     display: block;
@@ -44,12 +50,19 @@
     width: 200px;
     padding: 12px 5px 15px 5px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .description .wrapper {
         flex-direction: column;
         align-items: center;
     }
     .description img {
-
+        margin-right: 0;
+    }
+    .description .column-text-link {
+        align-items: center;
+    }
+    .description .column-text-link p{
+        text-align: center;
+        
     }
 }

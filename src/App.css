@@ -1,0 +1,10 @@
+
+.parallax {
+    background: no-repeat ;
+    background-size: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 1500px;
+    z-index: -1;
+}

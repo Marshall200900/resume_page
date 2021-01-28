@@ -1,0 +1,54 @@
+.skills {
+    font-family: Cormorant Garamond;
+    background: rgb(247, 249, 255);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.skills h2 {
+    padding-left: 10px;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: Playfair Display SC;
+    font-size: 3rem;
+    border-bottom: 1px solid rgb(40, 45, 75);
+}
+.skills h3 {
+    width: 150px;
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px auto;
+    border-bottom: 1px solid black;
+}
+.skills table {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.4rem;
+    font-weight:bold;
+    margin-bottom: 70px;
+}
+.skills table td {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    vertical-align: center;
+    
+}
+.skills .regular-skills {
+    width: 250px;
+    margin: 10px auto;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.skills .regular-skills li{
+    padding: 5px 0;
+}
+.skills .regular-skills-header {
+    width: 240px;
+}
+@media screen and (max-width: 700px) {
+    .skills table {
+        font-size: 3.15vw;
+        
+    }
+}

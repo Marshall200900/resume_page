@@ -5,12 +5,12 @@ class Header extends Component {
   render() {
     
     return( 
-      <div className="header">
+      <div id="header" className="header">
         <div className="content">
           <ul>
-            <li><a href="#description">Главная</a></li>
-            <li><a href="#skills_list">Услуги</a></li>
-            <li><a href="#footer">Контакты</a></li>
+            <li><a href="#about-myself">Обо мне</a></li>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#contacts">Контакты</a></li>
           </ul>
         </div>
       </div>

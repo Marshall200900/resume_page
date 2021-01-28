@@ -11,8 +11,8 @@ class Description extends Component {
           <div className="wrapper">
             <img className="avatar" src={avatar} alt="no photo :("/>
             <div className="column-text-link">
-              <p>Здравствуйте! Меня зовут Арсений Сидоров и я веб-дизайнер и программист</p>
-              <a href="#footer">Написать мне</a>
+              <p>Здравствуйте! Меня зовут Арсений Сидоров и я <em>веб-дизайнер</em> и <em>программист</em></p>
+              <a href="#contacts">Написать мне</a>
             </div>
           </div>
         </div>
